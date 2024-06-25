@@ -1,0 +1,181 @@
+* {
+	font-weight: bold;
+	font-family: monospace;
+	padding: 0;
+	margin: 0;
+}
+
+window#waybar {
+	font-size: 16px;
+	/* background: #1b1f20; */
+	background: transparent;
+	color: #e0d7b8;
+}
+
+#custom-menu {
+	padding-left: 5px;
+	padding-right: 12px;
+	font-size: 20px;
+}
+
+#custom-space {
+	color: #89816d;
+}
+
+#custom-menu:hover {
+	color: #ffedce;
+}
+
+#custom-launcher-1,
+#custom-launcher-2,
+#custom-launcher-3,
+#custom-launcher-4 {
+	padding-right: 15px;
+	font-size: 18px;
+}
+
+#custom-launcher-1:hover,
+#custom-launcher-2:hover,
+#custom-launcher-3:hover,
+#custom-launcher-4:hover {
+	font-size: 20px;
+}
+
+#custom-zypper {
+	color: #4c9141;
+}
+
+#custom-weather,
+#custom-menu,
+#workspaces,
+#memory,
+#cpu,
+#battery,
+#disk.1,
+#disk.2,
+#clock.3,
+#tray {
+	background: #383838;
+	margin: 3px;
+	border-radius: 5px;
+	border: solid 2px #e0d7b8;
+}
+
+#custom-power,
+#custom-notification,
+#pulseaudio {
+	background: #383838;
+	border: solid 2px #e0d7b8;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+#pulseaudio {
+	border-right: none;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin-left: 3px;
+}
+
+#custom-notification {
+	border-left: none;
+	border-right: none;
+	margin-left: -7px;
+	margin-right: -7px;
+}
+
+#custom-power {
+	border-left: none;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#pulseaudio:hover,
+#custom-power:hover,
+#custom-weather:hover,
+#custom-notification:hover,
+#memory:hover,
+#cpu:hover,
+#battery:hover,
+#disk.1:hover,
+#disk.2:hover,
+#window:hover,
+#clock.3:hover {
+	color: #ffe5b9;
+}
+
+#workspaces {
+	min-width: 310px;
+}
+
+#workspaces button {
+	font-size: 18px;
+	color: #8f8679;
+	margin-right: 5px;
+}
+
+#workspaces button.active {
+	/*background: #6e6d5b;*/
+	color: #edd7aa;
+	border-radius: 0px;
+}
+
+#workspaces button.urgent {
+	background: #cc4116;
+	margin: 5px;
+}
+
+#window {
+	font-size: 11px;
+	color: #fdf6e3;
+}
+
+#workspaces button:hover {
+	color: #ffffff;
+}
+
+#memory {
+	color: #ffffff;
+}
+
+#cpu {
+	color: #ffffff;
+}
+
+#battery {
+	color: #ffffff;
+}
+
+#disk.1 {
+	color: #ffffff;
+}
+
+#disk.2 {
+	color: #ffffff;
+}
+
+#pulseaudio,
+#memory,
+#cpu,
+#battery,
+#disk.1 #disk.2 {
+	padding: 0 2px;
+}
+
+#taskbar {
+	padding: 0 0 0;
+	background: #000000;
+}
+
+#taskbar button {
+	padding: 0 5 0;
+	background: #000000;
+}
+
+#taskbar button.active {
+	background: gray;
+}
+
+#tray {
+	padding: 0 5 0;
+}
